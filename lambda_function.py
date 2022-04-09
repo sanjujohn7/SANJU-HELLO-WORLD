@@ -29,5 +29,5 @@ print(f.read())
     # TODO implement
     return {
         'statusCode': 200,
-        'body': f.read()
+        'body': file.read()
     }
